@@ -208,7 +208,7 @@ img{max-width:100%;display:block}
    .hero__photo, .hero_photo {
     position: absolute !important;
     right: -10px !important;
-    transform: translateX(40px)!important;
+    transform: translateX(90px)!important;
     left: auto !important;
     top: -5px !important;
     width: 250px !important;
