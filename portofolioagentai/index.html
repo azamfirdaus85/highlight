@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"HIGHLIGHT REEL | MUHAMMAD AHZAM FIRDAUS – Sports & Esports</title>
+<meta name="description" content="Portofolio Video Editor & VFX Artist">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <span class="loader__label">SABAR YAA LAGI MEMUAT</span>
+    <div class="loader__count"><span id="loaderNum">0</span>%</div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+  </div>
+</div>
+
+<div class="cursor" id="cursor"></div>
+<div class="progress" id="progress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#home" class="nav__logo">MUHAMMAD AHZAM FIRDAUS<span>.</span></a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#karya">Hobi</a>
+    <a href="#penghargaan">Penghargaan</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#kontak" class="nav__cta">Hubungi Saya</a>
+  </nav>
+  <button class="nav__burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero__stars" id="stars"></div>
+  <div class="hero__bigtext" id="bigText" aria-hidden="true">"HIGHLIGHT REEL</div>
+  <div class="hero__content">
+    <p class="hero__hello"><span>Hallo, Saya</span></p>
+    <h1 class="hero__name">MUHAMMAD AHZAM<br>FIRDAUS</h1>
+    <p class="hero__role">SPORTS &amp; <b> ESPORTS</b></p>
+    <p class="hero__desc">FOR SPORTS. FOR GAMERS. FOR WINNERS.<br>
+Every frame hits harder.</p>
+    <div class="hero__btns">
+      <a href="#karya" class="btn btn--red">Lihat Hobi</a>
+      <a href="#kontak" class="btn btn--ghost">LET'S MAKE A BANGER</a>
+    </div>
+  </div>
+  <div class="hero__photo">
+    <img src= images/azam.jpg alt="Foto profil">
+    <div class="hero__silhouette"></div>
+  </div>
+  <div class="hero__stats">
+    <div><b data-count="1000">0</b><span>Goal di Playstation</span></div>
+    <div><b data-count="200">0</b><span>Kilometer Berlari</span></div>
+    <div><b data-count="10">0</b><span>Penghargaan</span></div>
+  </div>
+  <div class="hero__scroll">SCROLL <i></i></div>
+</section>
+
+<!-- KARYA -->
+<section class="section" id="karya">
+  <div class="section__head reveal">
+    <span class="tag">01 — Showcase</span>
+    <h2 class="title">HOBI <em>SAYA</em></h2>
+  </div>
+
+  <div class="works">
+    <article class="work reveal" data-video="https://youtube.com/shorts/XrX5SexyNsk?si=QJKglf_tP7DryD2L">
+      <div class="work__thumb" style="--img:url('images/run.JPEG');--fallback:linear-gradient(135deg,#1b2a3a,#0a0a0a)">
+        <span class="work__play">▶</span>
+      </div>
+      <div class="work__info"><small>01 — Run</small><h3>Running</h3><p>Enjoy Every Pace<br>Every Moments</p></div>
+    </article>
+    <article class="work reveal" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+      <div class="work__thumb" style="--img:url('images/bili.jpeg');background: size 85% !important;--fallback:linear-gradient(135deg,#3a1b1b,#0a0a0a)">
+        <span class="work__play">▶</span>
+      </div>
+      <div class="work__info"><small>02 — BALL POOL</small><h3>Billiard</h3><p>Enjoy <br> Every Ball</p></div>
+    </article>
+    <article class="work reveal" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+      <div class="work__thumb" style="--img:url('images/bola.jpeg');--fallback:linear-gradient(135deg,#0f3340,#0a0a0a)">
+        <span class="work__play">▶</span>
+      </div>
+      <div class="work__info"><small>03 — Ball</small><h3>Football</h3><p>One Team,One Goal</p></div>
+    </article>
+    <article class="work reveal" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+      <div class="work__thumb" style="--img:url('images/motor.jpeg');--fallback:linear-gradient(135deg,#2a2a1b,#0a0a0a)">
+        <span class="work__play">▶</span>
+      </div>
+      <div class="work__info"><small>04 — Ride</small><h3>Night Ride</h3><p>City Lights & Engine</p></div>
+    </article>
+  </div>
+
+  <div class="clients reveal">
+    <p>Dipercaya oleh</p>
+    <div class="marquee"><div class="marquee__track">
+      <span>RUNNING</span><span>BILLIARD</span><span>FOOTBALL</span><span>RIDE</span><span>RUNNING</span><span>PLAYSTATIONS</span>
+          <span>RUNNING</span><span>BILLIARD</span><span>FOOTBALL</span><span>RIDE</span><span>RUNNING</span><span>PLAYSTATIONS</span>
+    </div></div>
+  </div>
+</section>
+
+<!-- PENGHARGAAN -->
+<section class="section section--dark" id="penghargaan">
+  <div class="awards">
+    <div class="awards__left reveal">
+      <span class="tag">02 — Achievement</span>
+      <h2 class="title">ENJOY<br><em>EVERY MOMENTS.</em></h2>
+      <div class="awards__big"><b data-count="10">0</b><span>PENGHARGAAN</span></div>
+      <p class="muted">Dari kompetisi apa saja seperti Pro Evolutions Soccer<br>(Gembox Patch),PlayStation dan Lainnya</p>
+    </div>
+    <ul class="awards__list reveal">
+      <li><span>2026</span><div><h4>Juara 1 – PlayStation</h4><p>Turnamen Gembox Patch Edisi Piala Dunia</p></div></li>
+      <li><span>2026</span><div><h4>Juara 1 - PlayStation</h4><p>Turnamen Gembox Patch Edisi Kemerdekaan</p></div></li>
+      <li><span>2025</span><div><h4>Juara 2 – Playstation</h4><p>Turnamen Gembox Patch GAME SPACE</p></div></li>
+      <li><span>2025</span><div><h4>Juara 2 - Playstation</h4><p>Turnamen Gembox Patch MJ PlayStation</p></div></li>
+      <li><span>2025</span><div><h4>Juara 1 – MTQ </h4><p>Musabaqoh Fahmil Qur'an</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- SHOWREEL -->
+<section class="reel" id="reel">
+  <div class="reel__text reveal">
+    <span class="tag">03 — Showreel</span>
+    <h2 class="title big">VIRTUAL PITCH.<br><em>REAL SKILL.</em></h2>
+    <p class="muted">Controller In Hand, Champion In Mind</p>
+    <button class="btn btn--red" id="reelBtn" data-video="hhttps://youtu.be/cJORIowFVmU?si=0rqL58RljBCqP4LH">▶ Putar Showreel</button>
+  </div>
+  <div class="reel__frame reveal"><div class="reel__img"></div><span class="reel__rec">● REC</span></div>
+</section>
+
+<!-- TENTANG -->
+<section class="section" id="tentang">
+  <div class="section__head reveal">
+    <span class="tag">04 — Tentang</span>
+    <h2 class="title">BUKAN SEKADAR MAIN.<br><em>TAPI CARA MAIN.</em></h2>
+  </div>
+  <div class="about">
+    <div class="about__col reveal">
+      <h3>Pendidikan</h3>
+      <div class="edu"><b>MA - AL HASANIYAH</b><span>2023 - 2026</span></div>
+      <div class="edu"><b>PONDOK PESANTREN PUTRA AL HASANIYAH</b><span>2023 - 2026</span></div>
+      <div class="edu"><b>MTS - AL HASANIYAH</b><span>2020 - 2023</span></div>
+    </div>
+    <div class="about__col reveal">
+      <h3>HOBI</h3>
+      <div class="skill"><div><span>PlayStation GEMBOX PATCH</span><span>95%</span></div><i><u data-w="95"></u></i></div>
+      <div class="skill"><div><span>Billiard</span><span>90%</span></div><i><u data-w="90"></u></i></div>
+      <div class="skill"><div><span>Running</span><span>85%</span></div><i><u data-w="85"></u></i></div>
+      <div class="skill"><div><span>Night Ride</span><span>70%</span></div><i><u data-w="70"></u></i></div>
+      <div class="skill"><div><span>Football</span><span>75%</span></div><i><u data-w="75"></u></i></div>
+    </div>
+    <blockquote class="about__quote reveal">
+      "PLAY SMART. STAY CALM. WIN THE GAME."
+      <cite>— Azam Firdaus</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section class="section section--dark" id="pengalaman">
+  <div class="section__head reveal">
+    <span class="tag">05 — Perjalanan</span>
+    <h2 class="title">TERUS BERGERAK.<br><em>TERUS BERKEMBANG.</em></h2>
+  </div>
+  <div class="timeline">
+    <div class="tl reveal"><span class="tl__year">2026 — Sekarang</span><div><h4>UNIVERSITAS MUHAMMADIYAH TANGERANG</h4><p>Mahasiswa Semester 1 <br> Program Studi: Teknik Informatika.</p></div></div>
+    <div class="tl reveal"><span class="tl__year">2023 — 2026</span><div><h4>MA - AL HASANIYAH</h4><p>Ilmu Pengetahuan Alam.</p></div></div>
+    <div class="tl reveal"><span class="tl__year">2023 — 2026</span><div><h4>PONDOK PESANTREN PUTRA AL HASANIYAH</h4><p>Menuntut Ilmu Agama di Pondok Pesantren.</p></div></div>
+    <div class="tl reveal"><span class="tl__year">2020 — 2023</span><div><h4>MTS - AL HASANIYAH</h4><p>-</p></div></div>
+  </div>
+  <p class="bigline reveal">LITTLE WINS.<br><em>BIG MEANING.</em></p>
+</section>
+
+<!-- KONTAK -->
+<section class="section" id="kontak">
+  <div class="contact">
+    <div class="reveal">
+      <span class="tag">06 — Kontak</span>
+      <h2 class="title big">LET'S PLAY & WIN <br><em>TOGETHER.</em></h2>
+      <p class="muted">Mau Sparing PES?,Lari bareng?, Billirad?  Gas Kontak Gue.</p>
+      <ul class="contact__list">
+        <li><span>Email</span><a href="azamf7316@gmail.com">azamf7316@gmail.com</a></li>
+        <li><span>WhatsApp</span><a href="https://wa.me/62882-1014-1046" target="https://wa.me/62882-1014-1046" rel="noopener">+62 882-1014-1046</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/azamfrds_?rpxt=cTlsZG9jZDFzcGc4&utm_source=qr/" target="https://www.instagram.com/azamfrds_?rpxt=cTlsZG9jZDFzcGc4&utm_source=qr/" rel="noopener">@azamfrds_</a></li>
+        <li><span>YouTube</span><a href="https://youtube.com/@azamfirdaus7814?si=7cPh1Wc4rvOPagtG" target="https://youtube.com/@azamfirdaus7814?si=7cPh1Wc4rvOPagtG" rel="noopener">AF731</a></li>
+      </ul>
+    </div>
+    <form class="form reveal" id="form">
+      <label>Nama<input type="text" name="nama" required placeholder="Nama lengkap"></label>
+      <label>Email<input type="email" name="email" required placeholder="email@contoh.com"></label>
+      <label>Pesan<textarea name="pesan" rows="5" required placeholder="Mau main apa?"></textarea></label>
+      <button class="btn btn--red" type="submit">Kirim via WhatsApp →</button>
+      <p class="form__note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Muhammad Ahzam Firdaus. KALO KROCO JANGAN MAIN PS.</span>
+  <a href="#home">Kembali ke atas ↑</a>
+</footer>
+
+<!-- MODAL VIDEO -->
+<div class="modal" id="modal">
+  <button class="modal__close" id="modalClose" aria-label="Tutup">✕</button>
+  <div class="modal__box"><iframe id="modalFrame" src="" allow="autoplay; fullscreen" allowfullscreen title="Video"></iframe></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
