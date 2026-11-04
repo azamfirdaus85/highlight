@@ -205,14 +205,15 @@ img{max-width:100%;display:block}
     position: relative;
   }
 
-  .hero_photo {
+   .hero__photo, .hero_photo {
     position: absolute !important;
-    right: -10px !important;
-    top: 115px !important;
+    right: 0px !important;
     left: auto !important;
-    width: 170px !important;
+    top: 125px !important;
+    width: 175px !important;
+    height: auto !important;
+    opacity: 1 !important;
   }
-
   .hero_content {
     position: relative;
     z-index: 5;
