@@ -207,10 +207,10 @@ img{max-width:100%;display:block}
 
    .hero__photo, .hero_photo {
     position: absolute !important;
-    right: 0px !important;
+    right: -15px !important;
     left: auto !important;
-    top: 125px !important;
-    width: 175px !important;
+    top: 105px !important;
+    width: 240px !important;
     height: auto !important;
     opacity: 1 !important;
   }
