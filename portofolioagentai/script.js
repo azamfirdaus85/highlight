@@ -84,7 +84,7 @@
   addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 
   /* Form → WhatsApp (ganti nomor di bawah) */
-  const WA_NUMBER = '6281234567890';
+  const WA_NUMBER = '6288210141046';
   $('#form').addEventListener('submit', e => {
     e.preventDefault();
     const f = new FormData(e.target);
