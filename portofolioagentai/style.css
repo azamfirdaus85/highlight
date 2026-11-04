@@ -198,5 +198,24 @@ img{max-width:100%;display:block}
   .works,.awards,.reel,.about,.contact{grid-template-columns:1fr}
   .awards__big b{font-size:6rem}
   .tl{grid-template-columns:1fr;gap:.3rem}
+ } 
+/* KHUSUS HP - FOTO GESER KE KANAN */
+@media (max-width: 768px) {
+  .hero {
+    position: relative;
+  }
+
+  .hero_photo {
+    position: absolute !important;
+    right: -10px !important;
+    top: 115px !important;
+    left: auto !important;
+    width: 170px !important;
+  }
+
+  .hero_content {
+    position: relative;
+    z-index: 5;
+  }
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
